@@ -1,4 +1,4 @@
 \babel@toc {polish}{}
-\contentsline {section}{\numberline {1}Wst\IeC {\k e}p}{3}
-\contentsline {subsection}{\numberline {1.1}Kim by\IeC {\l } Leonardo Fibonacci}{3}
-\contentsline {subsection}{\numberline {1.2}\IeC {\.Z}yciorys}{3}
+\contentsline {chapter}{\numberline {1}Wst\IeC {\k e}p}{2}
+\contentsline {section}{\numberline {1.1}Kim by\IeC {\l } Leonardo Fibonacci}{2}
+\contentsline {subsection}{\numberline {1.1.1}\IeC {\.Z}yciorys}{2}
