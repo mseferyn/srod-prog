@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.1.7)  7 JAN 2020 22:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.1.7)  7 JAN 2020 23:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -365,6 +365,9 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
@@ -399,18 +402,18 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 (./projlatex.aux)
 \openout1 = `projlatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -482,11 +485,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 10.
+(Font)              <12> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 10.
+(Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 10.
+(Font)              <6> on input line 11.
 
 [1
 
@@ -507,7 +510,7 @@ Rozdzia\l  1.
 <fibo.jpg, id=14, 85.7604pt x 115.632pt>
 File: fibo.jpg Graphic file (type jpg)
 <use fibo.jpg>
-Package pdftex.def Info: fibo.jpg  used on input line 28.
+Package pdftex.def Info: fibo.jpg  used on input line 29.
 (pdftex.def)             Requested size: 51.45662pt x 69.37973pt.
 [2
 
@@ -515,33 +518,498 @@ Package pdftex.def Info: fibo.jpg  used on input line 28.
 <liberabaci3.png, id=21, 128.48pt x 85.5998pt>
 File: liberabaci3.png Graphic file (type png)
 <use liberabaci3.png>
-Package pdftex.def Info: liberabaci3.png  used on input line 42.
-(pdftex.def)             Requested size: 77.08858pt x 51.36026pt.
- [3 <./liberabaci3.png>] [4
+Package pdftex.def Info: liberabaci3.png  used on input line 43.
+(pdftex.def)             Requested size: 256.95935pt x 171.19916pt.
+ [3 <./liberabaci3.png>]
+Rozdzia\l  2.
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 57.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 58.
+! Missing delimiter (. inserted).
+<to be read again> 
+                   }
+l.61 \end{array} \right }
+                         
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--64
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 67.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69     F_
+           {0} & F_{1} & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.69     F_{0} &
+                 F_{1} & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69     F_{0} &
+                 F_{1} & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.69     F_{0} &
+                 F_{1} & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69     F_{0} & F_
+                   {1} & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.69     F_{0} & F_{1} &
+                         F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69     F_{0} & F_{1} &
+                         F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.69     F_{0} & F_{1} &
+                         F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69     F_{0} & F_{1} & F_
+                           {2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.69     F_{0} & F_{1} & F_{2} &
+                                 F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69     F_{0} & F_{1} & F_{2} &
+                                 F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.69     F_{0} & F_{1} & F_{2} &
+                                 F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69     F_{0} & F_{1} & F_{2} & F_
+                                   {3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.69     F_{0} & F_{1} & F_{2} & F_{3} &
+                                         F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69     F_{0} & F_{1} & F_{2} & F_{3} &
+                                         F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.69     F_{0} & F_{1} & F_{2} & F_{3} &
+                                         F_{4} & F_{5} & F_{6} & F_{7} & F_{...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69     F_{0} & F_{1} & F_{2} & F_{3} & F_
+                                           {4} & F_{5} & F_{6} & F_{7} & F_{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.69     F_{0} & F_{1} & F_{2} & F_{3} & F_{4} &
+                                                 F_{5} & F_{6} & F_{7} & F_{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69     F_{0} & F_{1} & F_{2} & F_{3} & F_{4} &
+                                                 F_{5} & F_{6} & F_{7} & F_{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.69     F_{0} & F_{1} & F_{2} & F_{3} & F_{4} &
+                                                 F_{5} & F_{6} & F_{7} & F_{...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 ...F_{0} & F_{1} & F_{2} & F_{3} & F_{4} & F_
+                                                  {5} & F_{6} & F_{7} & F_{8...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.69 ... & F_{1} & F_{2} & F_{3} & F_{4} & F_{5} &
+                                                   F_{6} & F_{7} & F_{8} & F...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 ... & F_{1} & F_{2} & F_{3} & F_{4} & F_{5} &
+                                                   F_{6} & F_{7} & F_{8} & F...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.69 ... & F_{1} & F_{2} & F_{3} & F_{4} & F_{5} &
+                                                   F_{6} & F_{7} & F_{8} & F...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 ...F_{1} & F_{2} & F_{3} & F_{4} & F_{5} & F_
+                                                  {6} & F_{7} & F_{8} & F_{9...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.69 ... & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} &
+                                                   F_{7} & F_{8} & F_{9} & F...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 ... & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} &
+                                                   F_{7} & F_{8} & F_{9} & F...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.69 ... & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} &
+                                                   F_{7} & F_{8} & F_{9} & F...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 ...F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_
+                                                  {7} & F_{8} & F_{9} & F_{1...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.69 ... & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} &
+                                                   F_{8} & F_{9} & F_{10}   ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 ... & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} &
+                                                   F_{8} & F_{9} & F_{10}   ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.69 ... & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} &
+                                                   F_{8} & F_{9} & F_{10}   ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 ...F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_
+                                                  {8} & F_{9} & F_{10}   \\ ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.69 ... & F_{4} & F_{5} & F_{6} & F_{7} & F_{8} &
+                                                   F_{9} & F_{10}   \\ \hline
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 ... & F_{4} & F_{5} & F_{6} & F_{7} & F_{8} &
+                                                   F_{9} & F_{10}   \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.69 ... & F_{4} & F_{5} & F_{6} & F_{7} & F_{8} &
+                                                   F_{9} & F_{10}   \\ \hline
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 ...F_{4} & F_{5} & F_{6} & F_{7} & F_{8} & F_
+                                                  {9} & F_{10}   \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.69 ... & F_{5} & F_{6} & F_{7} & F_{8} & F_{9} &
+                                                   F_{10}   \\ \hline
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 ... & F_{5} & F_{6} & F_{7} & F_{8} & F_{9} &
+                                                   F_{10}   \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.69 ... & F_{5} & F_{6} & F_{7} & F_{8} & F_{9} &
+                                                   F_{10}   \\ \hline
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 ...F_{5} & F_{6} & F_{7} & F_{8} & F_{9} & F_
+                                                  {10}   \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.69 ...F_{7} & F_{8} & F_{9} & F_{10}   \\ \hline
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 ...F_{7} & F_{8} & F_{9} & F_{10}   \\ \hline
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.69 ...F_{7} & F_{8} & F_{9} & F_{10}   \\ \hline
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Too many }'s.
+l.75 \end{center}}
+                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+[4
+
+] [5
 
 ] (./projlatex.aux) ) 
 Here is how much of TeX's memory you used:
- 2585 strings out of 494888
- 32641 string characters out of 6179867
- 92806 words of memory out of 5000000
- 5862 multiletter control sequences out of 15000+600000
- 15548 words of font info for 35 fonts, out of 8000000 for 9000
+ 2604 strings out of 494888
+ 33052 string characters out of 6179867
+ 92886 words of memory out of 5000000
+ 5875 multiletter control sequences out of 15000+600000
+ 18152 words of font info for 42 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 41i,7n,25p,615b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,11n,25p,615b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/marcin/.texlive2017/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecti1000.600pk> </home/marcin/.texlive2017/texmf-var/fonts/pk/ljfour/jk
-nappen/ec/ecbx1200.600pk> </home/marcin/.texlive2017/texmf-var/fonts/pk/ljfour/
-jknappen/ec/ecbx1440.600pk> </home/marcin/.texlive2017/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/ecbx2074.600pk> </home/marcin/.texlive2017/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecrm1000.600pk> </home/marcin/.texlive2017/texmf-var/fonts/pk/l
-jfour/jknappen/ec/ecbx1000.600pk> </home/marcin/.texlive2017/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecbx2488.600pk> </home/marcin/.texlive2017/texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/marcin/.texlive2017/texmf-var/font
-s/pk/ljfour/jknappen/ec/ecrm1728.600pk>
-Output written on projlatex.pdf (5 pages, 1230167 bytes).
+ppen/ec/ecbx1728.600pk> </home/marcin/.texlive2017/texmf-var/fonts/pk/ljfour/jk
+nappen/ec/ecrm1440.600pk> </home/marcin/.texlive2017/texmf-var/fonts/pk/ljfour/
+jknappen/ec/ecti1000.600pk> </home/marcin/.texlive2017/texmf-var/fonts/pk/ljfou
+r/jknappen/ec/ecbx1200.600pk> </home/marcin/.texlive2017/texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecbx1440.600pk> </home/marcin/.texlive2017/texmf-var/fonts/pk/l
+jfour/jknappen/ec/ecbx2074.600pk> </home/marcin/.texlive2017/texmf-var/fonts/pk
+/ljfour/jknappen/ec/ecrm1000.600pk> </home/marcin/.texlive2017/texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/marcin/.texlive2017/texmf-var/font
+s/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/marcin/.texlive2017/texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/marcin/.texlive2017/texmf-var/
+fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on projlatex.pdf (6 pages, 1303458 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 334 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
