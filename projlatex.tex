@@ -4,12 +4,13 @@
 \usepackage{indentfirst}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx} 
-\usepackage{xcolor}
 \usepackage{listings}
-\definecolor{mGreen}{rgb}{0,0.6,0}
-\definecolor{mGray}{rgb}{0.5,0.5,0.5}
-\definecolor{mPurple}{rgb}{0.58,0,0.82}
-\definecolor{backgroundColour}{rgb}{0.95,0.95,0.92}
+\usepackage{xcolor}
+\lstset { %
+    language=C++,
+    backgroundcolor=\color{black!5}, % set backgroundcolor
+    basicstyle=\footnotesize,% basic font setting
+}
 \title{Ciąg Fibonacciego}
 \author{Marcin Seferyn}
 \date{12.12.2019}
@@ -64,7 +65,7 @@ $
 0 & \textrm{dla $n>0$}\\
 1 & \textrm{dla $n=1$}\\
 F_{n-1} + F_{n-2} & \textrm{dla $ n > 1 $}
-\end{array} \right }
+\end{array} \right. }
 $
 \newline
 \begin{center}
@@ -79,7 +80,57 @@ $
   \end{tabular}
   }
 \end{center}}
+\newpage
+\section{Ciąg Fibonacciego w C++}
+\subsection{Iteracyjnie}
+\begin{lstlisting}
+#include<iostream>
+#include<cstdlib>
+using namespace std;
 
+void fibonacci(int n)
+{    
+     long long a = 0, b = 1;
+     for(int i=0;i<n;i++)
+     {
+            cout<<b<<" ";
+            b += a;  
+            a = b-a;  
+     }     
+}
+
+int main()
+{
+    int n;
+    cout<<"Podaj ile chcesz wypisac wyrazow ciagu fibonacciego: ";
+    cin>>n;
+    fibonacci(n);
+    system("pause");
+    return 0;
+}
+\end{lstlisting}
+\subsection{Rekurencyjnie}
+\begin{lstlisting}
+#include<iostream>
+#include<cstdlib>
+using namespace std;
+
+int fib(int n)
+{
+	if(n<3)
+		return 1;
+	return fib(n-2)+fib(n-1);
+}
+int main()
+{
+	int n;
+	cout<<"Podaj nr wyrazu ciagu: ";
+	cin>>n;
+	cout<<n<<" wyraz ciagu ma wartos "<<fib(n)<<endl;
+	system("pause");
+	return 0;
+}
+\end{lstlisting}
 \newpage
 \begin{thebibliography}{9}
 \bibitem{fib} Kim był Fibonacci https://pl.wikipedia.org/wiki/Fibonacci
@@ -89,5 +140,7 @@ $
 \bibitem{fib5} Ciąg Fibonacciego https://pl.wikipedia.org/wiki/Ciag-Fibonacciego
 
 \end{thebibliography}
+\listoffigures
+
 \end{document}
 	
