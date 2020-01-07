@@ -3,3 +3,4 @@
 \contentsline {section}{\numberline {1.1}Kim by\IeC {\l } Leonardo Fibonacci}{2}
 \contentsline {subsection}{\numberline {1.1.1}\IeC {\.Z}yciorys}{2}
 \contentsline {section}{\numberline {1.2}Dokonania}{3}
+\contentsline {subsection}{\numberline {1.2.1}Liber Abaci}{3}
