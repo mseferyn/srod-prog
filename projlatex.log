@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.1.7)  8 JAN 2020 00:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.1.7)  8 JAN 2020 00:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -375,13 +375,31 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count90
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
@@ -399,25 +417,58 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen108
 \Gin@req@width=\dimen109
 )
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box26
+)
+\tc@llx=\dimen110
+\tc@lly=\dimen111
+\tc@urx=\dimen112
+\tc@ury=\dimen113
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen114
+\adjbox@Height=\dimen115
+\adjbox@Depth=\dimen116
+\adjbox@Totalheight=\dimen117
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count91
+)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box27
+\sift@deathcycles=\count92
+\@vwid@loff=\dimen118
+\@vwid@roff=\dimen119
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks18
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count90
-\lst@gtempboxa=\box26
-\lst@token=\toks17
-\lst@length=\count91
-\lst@currlwidth=\dimen110
-\lst@column=\count92
-\lst@pos=\count93
-\lst@lostspace=\dimen111
-\lst@width=\dimen112
-\lst@newlines=\count94
-\lst@lineno=\count95
-\lst@maxwidth=\dimen113
+\lst@mode=\count93
+\lst@gtempboxa=\box28
+\lst@token=\toks19
+\lst@length=\count94
+\lst@currlwidth=\dimen120
+\lst@column=\count95
+\lst@pos=\count96
+\lst@lostspace=\dimen121
+\lst@width=\dimen122
+\lst@newlines=\count97
+\lst@lineno=\count98
+\lst@maxwidth=\dimen123
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count96
-\lst@skipnumbers=\count97
-\lst@framebox=\box27
+\c@lstnumber=\count99
+\lst@skipnumbers=\count100
+\lst@framebox=\box29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -452,31 +503,31 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ) (./projlatex.aux)
 \openout1 = `projlatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count98
-\scratchdimen=\dimen114
-\scratchbox=\box28
-\nofMPsegments=\count99
-\nofMParguments=\count100
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count101
-\MPscratchDim=\dimen115
-\MPnumerator=\count102
-\makeMPintoPDFobject=\count103
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count101
+\scratchdimen=\dimen124
+\scratchbox=\box30
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen125
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks21
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -533,13 +584,13 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count104
+\c@lstlisting=\count107
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 18.
+(Font)              <12> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
+(Font)              <6> on input line 20.
 
 [1
 
@@ -560,7 +611,7 @@ Rozdzia\l  1.
 <fibo.jpg, id=14, 85.7604pt x 115.632pt>
 File: fibo.jpg Graphic file (type jpg)
 <use fibo.jpg>
-Package pdftex.def Info: fibo.jpg  used on input line 36.
+Package pdftex.def Info: fibo.jpg  used on input line 38.
 (pdftex.def)             Requested size: 51.45662pt x 69.37973pt.
 [2
 
@@ -568,31 +619,31 @@ Package pdftex.def Info: fibo.jpg  used on input line 36.
 <liberabaci3.png, id=21, 128.48pt x 85.5998pt>
 File: liberabaci3.png Graphic file (type png)
 <use liberabaci3.png>
-Package pdftex.def Info: liberabaci3.png  used on input line 50.
+Package pdftex.def Info: liberabaci3.png  used on input line 52.
 (pdftex.def)             Requested size: 256.95935pt x 171.19916pt.
  [3 <./liberabaci3.png>]
 Rozdzia\l  2.
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 64.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 66.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 65.
+(Font)              <14.4> on input line 67.
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--71
+Underfull \hbox (badness 10000) in paragraph at lines 58--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--71
+Underfull \hbox (badness 10000) in paragraph at lines 58--73
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 74.
+(Font)              <17.28> on input line 76.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76     F_
+l.78     F_
            {0} & F_{1} & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -600,7 +651,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.76     F_{0} &
+l.78     F_{0} &
                  F_{1} & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -611,7 +662,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76     F_{0} &
+l.78     F_{0} &
                  F_{1} & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -619,7 +670,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.76     F_{0} &
+l.78     F_{0} &
                  F_{1} & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -630,7 +681,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76     F_{0} & F_
+l.78     F_{0} & F_
                    {1} & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -638,7 +689,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.76     F_{0} & F_{1} &
+l.78     F_{0} & F_{1} &
                          F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -649,7 +700,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76     F_{0} & F_{1} &
+l.78     F_{0} & F_{1} &
                          F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -657,7 +708,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.76     F_{0} & F_{1} &
+l.78     F_{0} & F_{1} &
                          F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -668,7 +719,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76     F_{0} & F_{1} & F_
+l.78     F_{0} & F_{1} & F_
                            {2} & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -676,7 +727,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.76     F_{0} & F_{1} & F_{2} &
+l.78     F_{0} & F_{1} & F_{2} &
                                  F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -687,7 +738,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76     F_{0} & F_{1} & F_{2} &
+l.78     F_{0} & F_{1} & F_{2} &
                                  F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -695,7 +746,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.76     F_{0} & F_{1} & F_{2} &
+l.78     F_{0} & F_{1} & F_{2} &
                                  F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -706,7 +757,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76     F_{0} & F_{1} & F_{2} & F_
+l.78     F_{0} & F_{1} & F_{2} & F_
                                    {3} & F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -714,7 +765,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.76     F_{0} & F_{1} & F_{2} & F_{3} &
+l.78     F_{0} & F_{1} & F_{2} & F_{3} &
                                          F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -725,7 +776,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76     F_{0} & F_{1} & F_{2} & F_{3} &
+l.78     F_{0} & F_{1} & F_{2} & F_{3} &
                                          F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -733,7 +784,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.76     F_{0} & F_{1} & F_{2} & F_{3} &
+l.78     F_{0} & F_{1} & F_{2} & F_{3} &
                                          F_{4} & F_{5} & F_{6} & F_{7} & F_{...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -744,7 +795,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76     F_{0} & F_{1} & F_{2} & F_{3} & F_
+l.78     F_{0} & F_{1} & F_{2} & F_{3} & F_
                                            {4} & F_{5} & F_{6} & F_{7} & F_{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -752,7 +803,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.76     F_{0} & F_{1} & F_{2} & F_{3} & F_{4} &
+l.78     F_{0} & F_{1} & F_{2} & F_{3} & F_{4} &
                                                  F_{5} & F_{6} & F_{7} & F_{...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -763,7 +814,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76     F_{0} & F_{1} & F_{2} & F_{3} & F_{4} &
+l.78     F_{0} & F_{1} & F_{2} & F_{3} & F_{4} &
                                                  F_{5} & F_{6} & F_{7} & F_{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -771,7 +822,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.76     F_{0} & F_{1} & F_{2} & F_{3} & F_{4} &
+l.78     F_{0} & F_{1} & F_{2} & F_{3} & F_{4} &
                                                  F_{5} & F_{6} & F_{7} & F_{...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -782,7 +833,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ...F_{0} & F_{1} & F_{2} & F_{3} & F_{4} & F_
+l.78 ...F_{0} & F_{1} & F_{2} & F_{3} & F_{4} & F_
                                                   {5} & F_{6} & F_{7} & F_{8...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -790,7 +841,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.76 ... & F_{1} & F_{2} & F_{3} & F_{4} & F_{5} &
+l.78 ... & F_{1} & F_{2} & F_{3} & F_{4} & F_{5} &
                                                    F_{6} & F_{7} & F_{8} & F...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -801,7 +852,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ... & F_{1} & F_{2} & F_{3} & F_{4} & F_{5} &
+l.78 ... & F_{1} & F_{2} & F_{3} & F_{4} & F_{5} &
                                                    F_{6} & F_{7} & F_{8} & F...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -809,7 +860,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.76 ... & F_{1} & F_{2} & F_{3} & F_{4} & F_{5} &
+l.78 ... & F_{1} & F_{2} & F_{3} & F_{4} & F_{5} &
                                                    F_{6} & F_{7} & F_{8} & F...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -820,7 +871,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ...F_{1} & F_{2} & F_{3} & F_{4} & F_{5} & F_
+l.78 ...F_{1} & F_{2} & F_{3} & F_{4} & F_{5} & F_
                                                   {6} & F_{7} & F_{8} & F_{9...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -828,7 +879,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.76 ... & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} &
+l.78 ... & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} &
                                                    F_{7} & F_{8} & F_{9} & F...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -839,7 +890,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ... & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} &
+l.78 ... & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} &
                                                    F_{7} & F_{8} & F_{9} & F...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -847,7 +898,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.76 ... & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} &
+l.78 ... & F_{2} & F_{3} & F_{4} & F_{5} & F_{6} &
                                                    F_{7} & F_{8} & F_{9} & F...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -858,7 +909,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ...F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_
+l.78 ...F_{2} & F_{3} & F_{4} & F_{5} & F_{6} & F_
                                                   {7} & F_{8} & F_{9} & F_{1...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -866,8 +917,8 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.76 ... & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} &
-                                                   F_{8} & F_{9} & F_{10}   ...
+l.78 ... & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} &
+                                                   F_{8} & F_{9} & F_{10} & ...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -877,16 +928,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ... & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} &
-                                                   F_{8} & F_{9} & F_{10}   ...
+l.78 ... & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} &
+                                                   F_{8} & F_{9} & F_{10} & ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.76 ... & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} &
-                                                   F_{8} & F_{9} & F_{10}   ...
+l.78 ... & F_{3} & F_{4} & F_{5} & F_{6} & F_{7} &
+                                                   F_{8} & F_{9} & F_{10} & ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -896,16 +947,16 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ...F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_
-                                                  {8} & F_{9} & F_{10}   \\ ...
+l.78 ...F_{3} & F_{4} & F_{5} & F_{6} & F_{7} & F_
+                                                  {8} & F_{9} & F_{10} & F_{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.76 ... & F_{4} & F_{5} & F_{6} & F_{7} & F_{8} &
-                                                   F_{9} & F_{10}   \\ \hline
+l.78 ... & F_{4} & F_{5} & F_{6} & F_{7} & F_{8} &
+                                                   F_{9} & F_{10} & F_{11} &...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -915,16 +966,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ... & F_{4} & F_{5} & F_{6} & F_{7} & F_{8} &
-                                                   F_{9} & F_{10}   \\ \hline
+l.78 ... & F_{4} & F_{5} & F_{6} & F_{7} & F_{8} &
+                                                   F_{9} & F_{10} & F_{11} &...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.76 ... & F_{4} & F_{5} & F_{6} & F_{7} & F_{8} &
-                                                   F_{9} & F_{10}   \\ \hline
+l.78 ... & F_{4} & F_{5} & F_{6} & F_{7} & F_{8} &
+                                                   F_{9} & F_{10} & F_{11} &...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -934,16 +985,16 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ...F_{4} & F_{5} & F_{6} & F_{7} & F_{8} & F_
-                                                  {9} & F_{10}   \\ \hline
+l.78 ...F_{4} & F_{5} & F_{6} & F_{7} & F_{8} & F_
+                                                  {9} & F_{10} & F_{11} & F_...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.76 ... & F_{5} & F_{6} & F_{7} & F_{8} & F_{9} &
-                                                   F_{10}   \\ \hline
+l.78 ... & F_{5} & F_{6} & F_{7} & F_{8} & F_{9} &
+                                                   F_{10} & F_{11} & F_{12} ...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -953,16 +1004,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ... & F_{5} & F_{6} & F_{7} & F_{8} & F_{9} &
-                                                   F_{10}   \\ \hline
+l.78 ... & F_{5} & F_{6} & F_{7} & F_{8} & F_{9} &
+                                                   F_{10} & F_{11} & F_{12} ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.76 ... & F_{5} & F_{6} & F_{7} & F_{8} & F_{9} &
-                                                   F_{10}   \\ \hline
+l.78 ... & F_{5} & F_{6} & F_{7} & F_{8} & F_{9} &
+                                                   F_{10} & F_{11} & F_{12} ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -972,15 +1023,91 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ...F_{5} & F_{6} & F_{7} & F_{8} & F_{9} & F_
-                                                  {10}   \\ \hline
+l.78 ...F_{5} & F_{6} & F_{7} & F_{8} & F_{9} & F_
+                                                  {10} & F_{11} & F_{12}  \\...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.76 ...F_{7} & F_{8} & F_{9} & F_{10}   \\ \hline
+l.78 ...& F_{6} & F_{7} & F_{8} & F_{9} & F_{10} &
+                                                   F_{11} & F_{12}  \\ \hline
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.78 ...& F_{6} & F_{7} & F_{8} & F_{9} & F_{10} &
+                                                   F_{11} & F_{12}  \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.78 ...& F_{6} & F_{7} & F_{8} & F_{9} & F_{10} &
+                                                   F_{11} & F_{12}  \\ \hline
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.78 ..._{6} & F_{7} & F_{8} & F_{9} & F_{10} & F_
+                                                  {11} & F_{12}  \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.78 ... F_{7} & F_{8} & F_{9} & F_{10} & F_{11} &
+                                                   F_{12}  \\ \hline
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.78 ... F_{7} & F_{8} & F_{9} & F_{10} & F_{11} &
+                                                   F_{12}  \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.78 ... F_{7} & F_{8} & F_{9} & F_{10} & F_{11} &
+                                                   F_{12}  \\ \hline
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.78 ...{7} & F_{8} & F_{9} & F_{10} & F_{11} & F_
+                                                  {12}  \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.78 ..._{9} & F_{10} & F_{11} & F_{12}  \\ \hline
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -991,7 +1118,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ...F_{7} & F_{8} & F_{9} & F_{10}   \\ \hline
+l.78 ..._{9} & F_{10} & F_{11} & F_{12}  \\ \hline
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -999,39 +1126,55 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.76 ...F_{7} & F_{8} & F_{9} & F_{10}   \\ \hline
+l.78 ..._{9} & F_{10} & F_{11} & F_{12}  \\ \hline
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (50.75363pt too wide) in paragraph at lines 75--84
+ [] 
+ []
 
 ! Too many }'s.
-l.82 \end{center}}
+l.84 \end{center}}
                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
+<zloty.jpeg, id=26, 582.175pt x 306.14375pt>
+File: zloty.jpeg Graphic file (type jpg)
+<use zloty.jpeg>
+Package pdftex.def Info: zloty.jpeg  used on input line 88.
+(pdftex.def)             Requested size: 174.65384pt x 91.84383pt.
 [4
 
-] [5] [6
+ <./zloty.jpeg>] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+[]\T1/cmr/m/n/10 Ci¡g Fi-bo-nac-ciego w C++ http://www.algorytm.edu.pl/algorytm
+y-
+ []
+
+[7
 
 ] (./projlatex.lof)
 \tf@lof=\write4
 \openout4 = `projlatex.lof'.
 
- [7
+ [8
 
 ] (./projlatex.aux) ) 
 Here is how much of TeX's memory you used:
- 4878 strings out of 494888
- 61991 string characters out of 6179867
- 157713 words of memory out of 5000000
- 8118 multiletter control sequences out of 15000+600000
+ 5643 strings out of 494888
+ 74050 string characters out of 6179867
+ 165652 words of memory out of 5000000
+ 8843 multiletter control sequences out of 15000+600000
  19692 words of font info for 44 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 41i,11n,58p,615b,1181s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,11n,97p,615b,1181s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/marcin/.texlive2017/texmf-var/fonts/pk/ljfour/jkna
 ppen/ec/ecrm0800.600pk> </home/marcin/.texlive2017/texmf-var/fonts/pk/ljfour/jk
 nappen/ec/ecbx0800.600pk> </home/marcin/.texlive2017/texmf-var/fonts/pk/ljfour/
@@ -1051,12 +1194,14 @@ ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on projlatex.pdf (8 pages, 1332830 bytes).
+r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on projlatex.pdf (9 pages, 1382241 bytes).
 PDF statistics:
- 427 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
+ 450 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

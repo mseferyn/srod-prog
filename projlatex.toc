@@ -6,6 +6,7 @@
 \contentsline {subsection}{\numberline {1.2.1}Liber Abaci}{3}
 \contentsline {chapter}{\numberline {2}Ci\IeC {\k a}g Fibonacciego}{4}
 \contentsline {section}{\numberline {2.1}Czym jest ci\IeC {\k a}g Fibonacciego}{4}
+\contentsline {subsection}{\numberline {2.1.1}Zachodz\IeC {\k a}ce zale\IeC {\.z}no\IeC {\'s}ci}{5}
 \contentsline {section}{\numberline {2.2}Ci\IeC {\k a}g Fibonacciego w C++}{5}
 \contentsline {subsection}{\numberline {2.2.1}Iteracyjnie}{5}
-\contentsline {subsection}{\numberline {2.2.2}Rekurencyjnie}{5}
+\contentsline {subsection}{\numberline {2.2.2}Rekurencyjnie}{6}
